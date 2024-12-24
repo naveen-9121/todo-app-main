@@ -1,0 +1,57 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    margin-left: 10px;
+  } 
+  .task-checkbox {
+    margin-right: 10px;
+  }
+    
+  .task-text.completed {
+    text-decoration: overline;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
+.task-edit-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.delete-button, .edit-button, .save-button, .cancel-button {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-button, .save-button, .cancel-button {
+  background-color: blue;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.edit-button:hover, .save-button:hover, .cancel-button:hover {
+  background-color: darkblue;
+}

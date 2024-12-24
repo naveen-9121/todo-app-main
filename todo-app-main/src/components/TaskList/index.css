@@ -1,0 +1,38 @@
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .list-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding:7px; 
+    margin:20px;
+    
+  }
+  .text{
+    font-size: 25px;
+    color: black;
+  }
+  .icon{
+    background-color: transparent;
+    font-size: 30px;
+    
+  }
+  .icon-button{
+    background-color: transparent;
+    border:0px;
+  }

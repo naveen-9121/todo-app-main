@@ -1,0 +1,51 @@
+
+  .app-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-width:600px;
+  }
+  
+  .main-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .create-task-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .create-task-heading-subpart {
+    color: #007BFF;
+  }
+  
+  
+  
+  .save-button:hover {
+    background-color: #0056b3;
+   
+  }
+  
+.save-button{
+  color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+} 

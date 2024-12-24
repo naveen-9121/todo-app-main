@@ -1,0 +1,63 @@
+.todo-user-input {
+    background-color: white;
+   width:50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+  }
+  
+  .button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .task-input-form {
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  
+  }
+  
+  .add-task-button {
+    background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  }
+  
+  .add-task-button:hover {
+    background-color: #0056b3;
+  }
+  
